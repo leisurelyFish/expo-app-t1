@@ -18,7 +18,8 @@ jobs:
         uses: expo/expo-github-action@v8
         with:
           eas-version: latest
-          token: ${{ secrets.EXPO_TOKEN }}
+#          token: ${{ secrets.EXPO_TOKEN }}
+          token: YANL8f8C4TRPfRfgsOe5cBVnvbcE0QayXHKSHU7b
       - name: Install dependencies
         run: npm ci
       - name: Build on EAS
