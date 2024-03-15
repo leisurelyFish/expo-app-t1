@@ -6,13 +6,21 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "login": "eas login",
+    "build:config": "eas build:configure",
+    "build:android": "eas build --platform android"
   },
   "dependencies": {
+    "@expo/vector-icons": "^14.0.0",
+    "eas-cli": "^7.4.0",
     "expo": "~50.0.11",
+    "expo-image-picker": "~14.7.1",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
-    "react-native": "0.73.4"
+    "react-native": "0.73.4",
+    "expo-updates": "~0.24.12",
+    "expo-dev-client": "~3.3.10"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
